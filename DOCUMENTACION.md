@@ -8,6 +8,6 @@ Antes de la optimización, el programa podía tardar varios segundos (incluso m�
 Algo que me pareció curioso es que el tiempo cambia un poco dependiendo de dónde lo ejecuto. Por ejemplo, en Visual Studio Code me da un tiempo, y en la terminal (Bash) me da otro, aunque use el mismo código. Supongo que eso se debe a cómo funciona cada programa, pero lo importante es que en los dos casos se nota muchísimo la mejora.
 Además, el resultado fue que se encontraron 9,592 números primos entre 1 y 100,000. Al revisar el rendimiento con cProfile, noté que la función para comprobar si un número es primo sigue siendo la que más tiempo toma, pero ahora mucho menos que antes, lo que confirma que la optimización sí sirvió.
 # Conclusiones
-Con esta mejora, el código funciona mucho más rápido y sin complicarlo tanto. Me ayudó a entender que pequeños cambios, como revisar solo hasta la raíz cuadrada o evitar los pares, hacen una gran diferencia. Aunque los resultados pueden variar un poco, la mejora se nota. Aprendí bastante sobre y estoy satisfecha con lo que logré.
+Con esta mejora, el código funciona mucho más rápido y sin complicarlo tanto. Me ayudó a entender que pequeños cambios, como revisar solo hasta la raíz cuadrada o evitar los pares, hacen una gran diferencia. Aunque los resultados pueden variar un poco, la mejora se nota. Aprendí bastante y estoy satisfecha con lo que logré.
 
 
