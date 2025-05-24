@@ -1,5 +1,4 @@
 # Documentación del Proyecto
-
 # Introducción
 El código original verificaba si un número era primo haciendo muchas comprobaciones, desde 2 hasta el número menos uno. Esto hacía que el programa tardara mucho cuando trabajaba con números grandes, porque revisaba divisores innecesarios.
 # Optimización
